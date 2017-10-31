@@ -35,6 +35,7 @@
 #include "cocos/scripting/js-bindings/manual/jsb_xmlhttprequest.hpp"
 #include "cocos/scripting/js-bindings/manual/jsb_websocket.hpp"
 #include "cocos/scripting/js-bindings/manual/jsb_socketio.hpp"
+#include "cocos/scripting/js-bindings/manual/jsb_agora_manual.hpp"
 
 #if USE_VIDEO
 #include "cocos/scripting/js-bindings/auto/jsb_cocos2dx_experimental_video_auto.hpp"
@@ -190,6 +191,7 @@ bool jsb_register_all_modules()
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
     se->addRegisterCallback(register_javascript_java_bridge);
 #endif
+    se->addRegisterCallback(register_all_agora);
 
     // run_boot_script has to be at last.
     se->addRegisterCallback(run_boot_script);
