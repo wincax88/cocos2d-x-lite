@@ -250,6 +250,8 @@
 		4C2615DD1FA6F20C00C3CDF7 /* jsb_agora_manual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C2615DA1FA6F20C00C3CDF7 /* jsb_agora_manual.cpp */; };
 		4C2615DE1FA6F20C00C3CDF7 /* jsb_agora_manual.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4C2615DB1FA6F20C00C3CDF7 /* jsb_agora_manual.hpp */; };
 		4C2615DF1FA6F20C00C3CDF7 /* jsb_agora_manual.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4C2615DB1FA6F20C00C3CDF7 /* jsb_agora_manual.hpp */; };
+		4C4338AD1FA85F6C00CDD6F1 /* PlatformUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4338AB1FA85F6C00CDD6F1 /* PlatformUtils.h */; };
+		4C4338AE1FA85F6C00CDD6F1 /* PlatformUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C4338AC1FA85F6C00CDD6F1 /* PlatformUtils.mm */; };
 		4D6E0D5F1E0384CC00DA5DB6 /* jsb_box2d_auto.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4D9BB1F71DFAB8B300B58565 /* jsb_box2d_auto.hpp */; };
 		4D6E0D601E0384CF00DA5DB6 /* jsb_box2d_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BB1F61DFAB8B300B58565 /* jsb_box2d_auto.cpp */; };
 		4D9BB1F81DFAB8B300B58565 /* jsb_box2d_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BB1F61DFAB8B300B58565 /* jsb_box2d_auto.cpp */; };
@@ -413,6 +415,8 @@
 		4C2615D31FA6D63400C3CDF7 /* jsb_someclass_manual.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = jsb_someclass_manual.hpp; sourceTree = "<group>"; };
 		4C2615DA1FA6F20C00C3CDF7 /* jsb_agora_manual.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_agora_manual.cpp; sourceTree = "<group>"; };
 		4C2615DB1FA6F20C00C3CDF7 /* jsb_agora_manual.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = jsb_agora_manual.hpp; sourceTree = "<group>"; };
+		4C4338AB1FA85F6C00CDD6F1 /* PlatformUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformUtils.h; sourceTree = "<group>"; };
+		4C4338AC1FA85F6C00CDD6F1 /* PlatformUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PlatformUtils.mm; sourceTree = "<group>"; };
 		4C87B6131FA7108C00972CC9 /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcEngineKit.framework; path = ../../../../external/mac/libs/AgoraRtcEngineKit.framework; sourceTree = "<group>"; };
 		4C87B6151FA710A000972CC9 /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcEngineKit.framework; path = ../../../../external/ios/libs/AgoraRtcEngineKit.framework; sourceTree = "<group>"; };
 		4C87B6191FA712A200972CC9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -603,6 +607,8 @@
 				1AFD360F1EF115100097DBB1 /* SeApi.h */,
 				1AFD36101EF115100097DBB1 /* Utils.cpp */,
 				1AFD36111EF115100097DBB1 /* Utils.hpp */,
+				4C4338AB1FA85F6C00CDD6F1 /* PlatformUtils.h */,
+				4C4338AC1FA85F6C00CDD6F1 /* PlatformUtils.mm */,
 			);
 			path = jsc;
 			sourceTree = "<group>";
@@ -713,6 +719,7 @@
 				4C2615DE1FA6F20C00C3CDF7 /* jsb_agora_manual.hpp in Headers */,
 				1A7759D31F340FB10012A210 /* inspector_socket_server.h in Headers */,
 				1A5F228C1F0DDD6B0008BF09 /* jsb_dragonbones_manual.hpp in Headers */,
+				4C4338AD1FA85F6C00CDD6F1 /* PlatformUtils.h in Headers */,
 				1AFD367A1EF115100097DBB1 /* SeApi.h in Headers */,
 				1AFD36661EF115100097DBB1 /* RefCounter.hpp in Headers */,
 				1AFD36561EF115100097DBB1 /* Object.hpp in Headers */,
@@ -963,6 +970,7 @@
 				1AFD36FE1EF116190097DBB1 /* ScriptingCore.cpp in Sources */,
 				1A6293F01F44128300A07B77 /* BaseJSAction.cpp in Sources */,
 				1AFD36DA1EF116190097DBB1 /* jsb_global.cpp in Sources */,
+				4C4338AE1FA85F6C00CDD6F1 /* PlatformUtils.mm in Sources */,
 				1AFD36CA1EF116190097DBB1 /* jsb_cocos2dx_extension_manual.cpp in Sources */,
 				1A119E8318BDF19200352BAA /* jsb_cocos2dx_auto.cpp in Sources */,
 				1A5F228A1F0DDD6B0008BF09 /* jsb_dragonbones_manual.cpp in Sources */,
