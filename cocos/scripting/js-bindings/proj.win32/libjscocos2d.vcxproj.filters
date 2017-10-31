@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="manual">
@@ -163,18 +163,6 @@
     </ClCompile>
     <ClCompile Include="..\jswrapper\config.cpp">
       <Filter>jswrapper</Filter>
-    </ClCompile>
-    <ClCompile Include="..\auto\jsb_creator_camera_auto.cpp">
-      <Filter>auto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\auto\jsb_creator_graphics_auto.cpp">
-      <Filter>auto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\auto\jsb_creator_physics_auto.cpp">
-      <Filter>auto</Filter>
-    </ClCompile>
-    <ClCompile Include="..\manual\jsb_creator_physics_manual.cpp">
-      <Filter>manual</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -350,18 +338,6 @@
       <Filter>jswrapper</Filter>
     </ClInclude>
     <ClInclude Include="..\manual\BaseJSAction.h">
-      <Filter>manual</Filter>
-    </ClInclude>
-    <ClInclude Include="..\auto\jsb_creator_camera_auto.hpp">
-      <Filter>auto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\auto\jsb_creator_graphics_auto.hpp">
-      <Filter>auto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\auto\jsb_creator_physics_auto.hpp">
-      <Filter>auto</Filter>
-    </ClInclude>
-    <ClInclude Include="..\manual\jsb_creator_physics_manual.hpp">
       <Filter>manual</Filter>
     </ClInclude>
   </ItemGroup>
