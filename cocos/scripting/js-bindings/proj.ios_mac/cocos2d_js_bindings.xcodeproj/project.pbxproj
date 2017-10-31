@@ -250,7 +250,6 @@
 		4C2615DD1FA6F20C00C3CDF7 /* jsb_agora_manual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C2615DA1FA6F20C00C3CDF7 /* jsb_agora_manual.cpp */; };
 		4C2615DE1FA6F20C00C3CDF7 /* jsb_agora_manual.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4C2615DB1FA6F20C00C3CDF7 /* jsb_agora_manual.hpp */; };
 		4C2615DF1FA6F20C00C3CDF7 /* jsb_agora_manual.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4C2615DB1FA6F20C00C3CDF7 /* jsb_agora_manual.hpp */; };
-		4C87B6141FA7108C00972CC9 /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C87B6131FA7108C00972CC9 /* AgoraRtcEngineKit.framework */; };
 		4C87B6161FA710A000972CC9 /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C87B6151FA710A000972CC9 /* AgoraRtcEngineKit.framework */; };
 		4D6E0D5F1E0384CC00DA5DB6 /* jsb_box2d_auto.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4D9BB1F71DFAB8B300B58565 /* jsb_box2d_auto.hpp */; };
 		4D6E0D601E0384CF00DA5DB6 /* jsb_box2d_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BB1F61DFAB8B300B58565 /* jsb_box2d_auto.cpp */; };
@@ -442,7 +441,6 @@
 			files = (
 				1A210DE41F46C2DF006CCBAE /* libjs_static.a in Frameworks */,
 				1A210DE51F46C2DF006CCBAE /* libmozglue.a in Frameworks */,
-				4C87B6141FA7108C00972CC9 /* AgoraRtcEngineKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
